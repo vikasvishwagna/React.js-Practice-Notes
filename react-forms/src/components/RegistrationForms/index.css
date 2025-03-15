@@ -1,0 +1,47 @@
+.title{
+ text-align: center;
+ 
+}
+
+.form-wrapper {
+  text-align: left;
+  width: max-content;
+  margin: 10px auto;
+
+}
+
+.form-element{
+  font-size: 1.2em;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-element input{
+  margin-left: 10px;
+}
+
+#form-sucess-alert{
+  position: absolute;
+  bottom: 150px;
+  left: 600px;
+  background-color: rgb(48, 126, 48);
+  color: white;
+  padding: 5px 10px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+#form-sucess-alert span{
+  margin-left: 10px;
+  border: 0.5px solid rgb(245, 242, 242);
+  padding: 1px 3px;
+  cursor: pointer;
+}
+
+.error-text{
+  color: rgb(216, 69, 69);
+  font-size: 0.8rem;
+  margin-top: 5px;
+}

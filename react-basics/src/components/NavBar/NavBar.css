@@ -1,0 +1,22 @@
+.navbar-container{
+  height: 60px;
+  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  
+}
+
+.ul-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  /* background-color: black; */
+}
+
+.ul-container li{
+  cursor: pointer;
+}
