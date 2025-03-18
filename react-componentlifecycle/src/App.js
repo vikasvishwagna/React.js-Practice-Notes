@@ -1,15 +1,17 @@
 
-import { useState } from 'react';
+//import { useState } from 'react';
 import './App.css';
-import Count from './components/Count';
+ import HOC from './components/HOC';
+// import Count from './components/Count';
+import Section1 from './components/Section1';
+import Section2 from './components/Section2';
 
 function App() {
-  const [showCount,setShowCount] = useState(true);
 
   return (
     <div className="App"> 
-      {showCount && <Count />}
-      <button onClick={()=>setShowCount(!showCount)}>{showCount ? 'Hide' : 'Show'}</button>
+     <HOC Component={Section1} />
+     <HOC Component={Section2} />
     </div>
   );
 }
@@ -42,4 +44,26 @@ export default App;
     }, [])
     - 1st Argument: callback
     - 2nd Argument: dependecy array
+
+      # componentWillUnmount -
+  const [showCount, setShowCount] = useState(true)
+  componentDidMount
+  useEffect(() => {
+    console.log('App component mounted successfully')
+  }, [])
+
+  {showCount && <Count />}
+  <button onClick={() => setShowCount(!showCount)}>{showCount ? 'Hide' : 'Show'}</button>
+
+  # HOC example 1
+  <HOC Component={Section1} />
+  <HOC Component={Section2} />
+
+  # HOC example 2
+  <HOC>
+    <Section1 />
+  </HOC>
+  <HOC>
+    <Section2 />
+  </HOC>
     */

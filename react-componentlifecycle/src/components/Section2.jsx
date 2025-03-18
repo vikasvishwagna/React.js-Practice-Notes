@@ -1,0 +1,15 @@
+import React from 'react'
+
+function Section2() {
+  return (
+    <div>
+      <h1>Section2</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi harum consectetur distinctio impedit laborum eligendi nostrum deleniti, totam cum autem. Repudiandae quo a libero molestiae voluptatem, ipsa blanditiis possimus odit ullam consequatur voluptas debitis voluptatum, sunt ea porro laudantium! Nobis qui repellendus non, in, assumenda beatae, fuga odio id voluptatem natus dolor voluptates blanditiis. Ratione rerum provident voluptas accusantium, delectus obcaecati repellendus aliquam labore quo iste neque quos corrupti. Ratione dignissimos ipsa quaerat possimus obcaecati asperiores perspiciatis, expedita ut quisquam dolorum ex cum fugit dolorem vel molestias tempore hic impedit, esse tenetur et numquam accusantium. Qui ipsum rerum accusantium aliquam!
+      </p>
+      <hr/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolor voluptatibus quibusdam dolorum assumenda fuga rem tempore aut molestias eos et commodi tenetur, hic ratione eum minus sit libero neque quia! Reprehenderit voluptatibus animi delectus culpa labore. Ex rerum, labore eveniet animi voluptatum sunt quam! Nisi illum doloremque consequatur est accusantium unde sunt neque sit enim! Et voluptas veniam ullam eveniet molestias natus velit corrupti placeat reiciendis, aperiam aut autem dolor cupiditate eos ipsum voluptate consequuntur explicabo earum facilis dicta modi exercitationem nulla. Distinctio vel iste dignissimos voluptate assumenda reiciendis sed placeat. Debitis, optio. Nostrum saepe commodi maiores. Placeat, tempora! Necessitatibus ab recusandae fugit natus laborum vitae, totam veniam asperiores saepe perferendis modi reprehenderit voluptatibus illum quo, autem esse nemo ex blanditiis hic doloremque aliquid similique provident! Asperiores quae eius porro. Modi molestiae labore deserunt nisi recusandae corrupti dolorum nobis aliquid placeat ullam aspernatur, sint reprehenderit sunt enim est cupiditate veritatis maiores nostrum sed dolorem qui. Quam architecto totam dignissimos tenetur eaque. Labore esse eius, earum fugit iure doloribus impedit atque molestias ad ipsam aspernatur in quae nobis exercitationem dolor commodi quod aliquam doloremque eos quasi non fuga. Minima voluptas rerum minus ipsum cupiditate error eaque ullam. Quas dolorem fuga iure molestiae hic sit molestias, vitae ex illum omnis sunt eos quam velit cumque fugit, eum necessitatibus corporis labore ad asperiores quidem aliquid itaque. Consectetur voluptatem consequuntur perferendis assumenda! Atque quis hic a molestias iusto repudiandae dolore et exercitationem voluptatum vero dolor consectetur officia quam, magnam voluptatibus porro magni! Ipsam.</p>
+    </div>
+  )
+}
+
+export default Section2
