@@ -1,0 +1,28 @@
+ .NavBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #023047;
+  height: 10vh;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.left-nav, .right-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.left-nav a, .right-nav a{
+ text-decoration: none;
+ font-size: 1.1rem;
+ color: #ffffff;
+ font-weight: 500;
+ transition: color 0.3s ease-in-out;
+} 
+
+.left-nav a:hover, .right-nav a:hover{
+  color: #b3b3b3;
+  text-decoration: underline;
+}
+
+
