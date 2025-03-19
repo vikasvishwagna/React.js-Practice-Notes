@@ -3,7 +3,7 @@
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  background: #f4f8f9;
+  background: #BCB8B1;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -12,7 +12,7 @@
 /* Title Styling */
 .main-title {
   font-size: 28px;
-  color: #333;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -54,7 +54,7 @@ textarea {
 
 /* Submit Button */
 .submit-btn {
-  background: #424040;
+  background: #463F3A;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -87,7 +87,7 @@ textarea {
 .social-links a {
   display: inline-block;
   margin: 5px;
-  color: #4e4b49;
+  color: #463F3A;
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
