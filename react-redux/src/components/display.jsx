@@ -17,8 +17,8 @@ function Display() {
 
   return (
     <div>
-      { msg && <h1>i love react.js</h1>}
       <button onClick={handleClick}> { msg ? 'Hide' : 'Show'} </button>
+      { msg && <h1>i love react.js</h1>}
     </div>
   )
 }
