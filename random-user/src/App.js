@@ -22,12 +22,11 @@ const App = ()=>{
           </>
         )
       }
-      <button onClick={fetchFunction}>Fetch User</button>
+      <button onClick={fetchFunction}>Fetch user</button>
 
     </div>
   )
 }
-
 
 // const App =  ()=>{
 //   const [user, setUser] = useState();
