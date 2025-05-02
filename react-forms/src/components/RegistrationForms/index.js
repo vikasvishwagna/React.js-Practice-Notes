@@ -26,10 +26,10 @@ function RegistrationForm() {
     4.check conform and password are same.
     */
 
-    setNameError(false);
-    setPasswordError(false);
-    setEmailError(false);
-    setConformPasswordError(false);
+    // setNameError(false);
+    // setPasswordError(false);
+    // setEmailError(false);
+    // setConformPasswordError(false);
 
     
     let error = false;

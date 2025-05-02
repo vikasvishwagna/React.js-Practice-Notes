@@ -1,7 +1,7 @@
 import { useState } from "react"
 //1.States and eventhandler.
 function Number(){
-  const [value, setValue] = useState(8);
+  const [value, setValue] = useState(0);
 
   const increment = ()=>{
     //setValue(value+1);
